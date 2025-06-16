@@ -2,13 +2,14 @@ import styled from "styled-components";
 import Counter from "./Counter";
 import Button from "./Button";
 import { useState } from "react";
+import {Header2} from "./Req";
 
 const NewForm = styled.div`
     background-color: white;
     border: 1px solid black;
     border-radius: 8px;
     padding: 16px;
-    margin: 24px;
+    margin: 0 60px 24px;
   `;
   const SentencesDiv = styled.div`
     display: flex;
@@ -16,13 +17,19 @@ const NewForm = styled.div`
   `;
   const SentencesForm = styled.textarea`
     padding: 16px;
-    margin: 16px auto;
+    margin: 16px;
     width: 90%;
-    height: 400px;
+    height: 300px;
     border: 2px solid gray;
     border-radius: 8px;
     font-size: 16px;
     resize: none;
+  `;
+
+  const FormHeader2 = styled.h2`
+    padding: 4px;
+    border-bottom: 1px solid#d6e3ed;
+    margin: 16px;
   `;
 
 const Form = ({title, count, complete, del}) => {
@@ -42,7 +49,7 @@ const Form = ({title, count, complete, del}) => {
   
   return(
     <NewForm>
-      <h2>{title}</h2>
+      <FormHeader2>{title}</FormHeader2>
       <SentencesDiv>
         <SentencesForm 
           placeholder="例：字数をカウントしたい文章を入力してください"

@@ -11,8 +11,9 @@ const Desc = () => {
   const Description = styled.div`
     background-color: white;
     border: 1px solid black;
+    border-radius: 8px;
     padding: 24px;
-    margin: 0 24px 24px;
+    margin: 0 60px 24px;
   `;
 
   return (

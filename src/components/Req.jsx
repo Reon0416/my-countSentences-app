@@ -8,7 +8,7 @@ const Requirment = styled.div`
     border: 1px solid black;
     border-radius: 8px;
     padding: 24px;
-    margin: 0 24px 24px;
+    margin: 0 60px 24px;
   `;
   const TitleForm = styled.input`
     padding: 16px;

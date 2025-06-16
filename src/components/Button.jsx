@@ -7,13 +7,14 @@ const StyledButton = styled.button`
   vertical-align: middle;
   text-decoration: none;
   font-weight: bold;
-  border: 2px solid #21e9e9;
-  color: #21e9e9;
+  border: 2px solid gray;
+  color: gray;
   transition: 0.5s;
+  background-color: #fff;
 
   &:hover {
-    color: #fff;
-    background: #21e9e9;
+    color: gray;
+    background: #d6e3ed;
   }
 `;
 
