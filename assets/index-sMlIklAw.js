@@ -93,7 +93,7 @@ Error generating stack: `+a.message+`
     padding: 4px;
     border-bottom: 1px solid#d6e3ed;
     margin: 16px;
-  `,wv=({title:c,count:r,complete:o,del:s})=>{const[S,z]=ea.useState(),[R,Y]=ea.useState(0),M=U=>{const B=U.target.value;z(B),Y(B.length)},E=()=>{z(""),Y(0)};return $.jsxs(Vv,{children:[$.jsx(Jv,{children:c}),$.jsx(Lv,{children:$.jsx(Kv,{placeholder:"例：字数をカウントしたい文章を入力してください",type:"text",value:S,onChange:M})}),$.jsx(Zv,{count:r,value:R}),$.jsx(Ac,{onClick:E,children:"リセット"}),$.jsx(Ac,{onClick:()=>{o(),s()},children:"終了"})]})},$v=Ft.div`
+  `,wv=({title:c,count:r,complete:o,del:s})=>{const[S,z]=ea.useState(),[R,Y]=ea.useState(0),M=U=>{const B=U.target.value;z(B),Y(B.replace(/\s/g,"").length)},E=()=>{z(""),Y(0)};return $.jsxs(Vv,{children:[$.jsx(Jv,{children:c}),$.jsx(Lv,{children:$.jsx(Kv,{placeholder:"例：字数をカウントしたい文章を入力してください",type:"text",value:S,onChange:M})}),$.jsx(Zv,{count:r,value:R}),$.jsx(Ac,{onClick:E,children:"リセット"}),$.jsx(Ac,{onClick:()=>{o(),s()},children:"終了"})]})},$v=Ft.div`
     background-color: white;
     border: 1px solid black;
     border-radius: 8px;
