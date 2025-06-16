@@ -4,10 +4,11 @@ import { useState } from "react";
 import Form from "./Form";
 
 const Requirment = styled.div`
+    background-color: white;
     border: 1px solid black;
     border-radius: 8px;
-    padding: 16px;
-    margin: 24px;
+    padding: 24px;
+    margin: 0 24px 24px;
   `;
   const TitleForm = styled.input`
     padding: 16px;
@@ -17,8 +18,9 @@ const Requirment = styled.div`
     border-radius: 8px;
     font-size: 16px;
   `;
-  const Header2 = styled.h2`
-    color: #24c5f1;
+ export const Header2 = styled.h2`
+    padding: 4px;
+    border-bottom: 1px solid#d6e3ed;
   `;
 
 const Req = () => {

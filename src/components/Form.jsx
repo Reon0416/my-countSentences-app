@@ -4,6 +4,7 @@ import Button from "./Button";
 import { useState } from "react";
 
 const NewForm = styled.div`
+    background-color: white;
     border: 1px solid black;
     border-radius: 8px;
     padding: 16px;
@@ -51,7 +52,6 @@ const Form = ({title, count, complete, del}) => {
         />
       </SentencesDiv>
       <Counter count={count} value={value}/>
-      <Button>コピー</Button>
       <Button onClick={reset}>リセット</Button>
       <Button onClick={() => {complete(); del();}}>終了</Button>
     </NewForm>
