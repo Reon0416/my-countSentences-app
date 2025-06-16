@@ -10,6 +10,10 @@ const NewForm = styled.div`
     border-radius: 8px;
     padding: 16px;
     margin: 0 60px 24px;
+    
+    @media(max-width: 480px){
+      margin: 0 0 24px;
+    }
   `;
   const SentencesDiv = styled.div`
     display: flex;

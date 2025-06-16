@@ -9,6 +9,10 @@ const Requirment = styled.div`
     border-radius: 8px;
     padding: 24px;
     margin: 0 60px 24px;
+
+    @media(max-width: 480px){
+      margin: 0 0 24px;
+    }
   `;
   const TitleForm = styled.input`
     padding: 16px;
