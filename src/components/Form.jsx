@@ -39,7 +39,7 @@ const Form = ({title, count, complete, del}) => {
   const textChange = (e) => {
     const newText = e.target.value
     setText(newText);
-    setValue(newText.length);
+    setValue(newText.replace(/\s/g, '').length);
   }
 
   const reset =() => {
