@@ -1,12 +1,14 @@
-# React + Vite
+##　文字数カウンたー
+文章をフォームに入力するとカウントしてくれるアプリケーションです。
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##　開発背景
+「Reactの基礎習得」かつ「自分が使うもの」の2つをベースに考えました。就職活動を始めていくにあたって自分が書いたエントリーシートの文章の文字数をChat-gptにいちいち聞くのが手間だったため文字数をカウントできるアプリケーションを作成しました。
 
-Currently, two official plugins are available:
+##　実際の画面
+### 情報の入力
+文章のテーマと上限文字数を入力して「字数を数える」を押す。
+<img width="800" height="700" alt="Image" src="https://github.com/user-attachments/assets/81454bb7-de27-42bc-b1d8-69feab6f499e" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 文字数カウント
+カウントしたい文章を入力します。文字数オーバーしたら赤文字になります。
+<img width="800" height="700" alt="Image" src="https://github.com/user-attachments/assets/2fbdd00f-860f-4ce3-b03c-157f22c2424a" />
