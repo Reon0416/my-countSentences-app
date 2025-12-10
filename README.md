@@ -1,6 +1,6 @@
 ## 文字数カウンター
 
-https://reon0416.github.io/my-countSentences-app/
+https://reon0416.github.io/my-countSentences-app/  
 文章をフォームに入力するとカウントしてくれるアプリケーションです。
 
 ## 開発背景
